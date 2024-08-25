@@ -7,32 +7,33 @@
     "clean:plugin": "expo-module clean plugin",
     "postinstall": "yarn run build:plugin",
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
     "@config-plugins/react-native-webrtc": "^5.0.0",
     "@notifee/react-native": "^7.0.0",
-    "expo": "~47.0.0",
-    "expo-build-properties": "~0.5.0",
-    "expo-status-bar": "~1.4.2",
+    "expo": "~51.0.0",
+    "expo-build-properties": "~0.12.5",
+    "expo-status-bar": "~1.12.1",
     "nativewind": "^2.0.11",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "react-native": "0.70.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
     "react-native-is-screen-captured-ios": "^0.1.0",
-    "react-native-web": "~0.18.7",
-    "react-native-webrtc": "^106.0.0"
+    "react-native-web": "~0.19.6",
+    "react-native-webrtc": "^106.0.0",
+    "socket.io-client": "^4.7.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@types/react": "~18.0.24",
+    "@babel/core": "^7.24.0",
+    "@types/react": "~18.2.45",
     "@types/react-native": "~0.70.6",
     "copyfiles": "^2.4.1",
     "expo-module-scripts": "^3.0.0",
     "tailwindcss": "^3.1.8",
-    "typescript": "^4.6.3"
+    "typescript": "~5.3.3"
   },
   "private": true
 }
